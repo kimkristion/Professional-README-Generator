@@ -2,9 +2,8 @@
 
 
 ## 
-- [Description](#description)
-- [Description](#description)
-- [Description](#description)
+[Description](#description) - [Description](#description) - [Description](#description)
+
 ## Description 
 - idk
 - idk
