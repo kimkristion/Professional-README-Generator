@@ -128,10 +128,13 @@ ${credits}
 ## Contribution 
 ${contribution}
 
+## License 
+${license} 
+
 ## Questions
 If you have any questions, encounter issues, or would like to discuss this project further, please feel free to reach out. You can contact me using the following methods:
 **Email**: [${email}](mailto:${email})
-**GitHub: [${github}](https://github.com/${github}) `
+**GitHub**: [${github}](https://github.com/${github}) `
 
         fs.appendFile(pathway, READMETemplate, (err) => err ? console.error(err) : console.log('check this out'))
 

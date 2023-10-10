@@ -24,7 +24,10 @@ f
 ## Contribution 
 f
 
+## License 
+MIT License 
+
 ## Questions
 If you have any questions, encounter issues, or would like to discuss this project further, please feel free to reach out. You can contact me using the following methods:
 **Email**: [kriselijahk1@gmail.com](mailto:kriselijahk1@gmail.com)
-**GitHub: [kimkristion](https://github.com/kimkristion) 
+**GitHub**: [kimkristion](https://github.com/kimkristion) 
