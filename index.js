@@ -62,6 +62,16 @@ const questions = [
         message: 'What license was used in your project?',
         choices: ['MIT License', 'GPL', 'Apache', 'N/A']
         
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter your GitHub username'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is a good email for users to reach you at?'
     }
 
 ];
@@ -89,6 +99,8 @@ function init() {
         const credits = answer.credits;
         const contribution = answer.contribution;
         const license = answer.license;
+        const github = answer.github;
+        const email = answer.email;
 
         let READMETemplate = `# ${projectTitle} ${license}
 
@@ -116,7 +128,10 @@ ${credits}
 ## Contribution 
 ${contribution}
 
-## Questions`
+## Questions
+If you have any questions, encounter issues, or would like to discuss this project further, please feel free to reach out. You can contact me using the following methods:
+**Email**: [${email}](mailto:${email})
+**GitHub: [${github}](https://github.com/${github}) `
 
         fs.appendFile(pathway, READMETemplate, (err) => err ? console.error(err) : console.log('check this out'))
 
