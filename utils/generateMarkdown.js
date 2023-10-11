@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 }
   
 function renderLicenseLink(license) {
-  if (license = 'MIT License') {
+  if (license === 'MIT License') {
     return ('[Read the full MIT license](https://opensource.org/licenses/MIT)')
   } else if (license === 'GPL') {
     return ('[Read the full GPL v3 license](https://www.gnu.org/licenses/gpl-3.0)')

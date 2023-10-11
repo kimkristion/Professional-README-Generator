@@ -25,7 +25,7 @@ f
 f
 
 ## License 
-[Read the full MIT license](https://opensource.org/licenses/MIT) 
+[Read the full GPL v3 license](https://www.gnu.org/licenses/gpl-3.0) 
 
 ## Questions
 If you have any questions, encounter issues, or would like to discuss this project further, please feel free to reach out. You can contact me using the following methods:
