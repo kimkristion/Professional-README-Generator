@@ -64,7 +64,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'Please enter your GitHub username'
+        message: 'Please enter your GitHub username: '
     },
     {
         type: 'input',
@@ -102,9 +102,9 @@ function init() {
         const email = answer.email;
 
         const generateMarkdown = require('./utils/generateMarkdown');
-        const markdown = generateMarkdown(data);
+       
 
-        let READMETemplate = `# ${projectTitle} ${markdown}
+        let READMETemplate = `# ${projectTitle} 
 
 ## Overview
 The README Generator is a command-line application that streamlines the process of creating high-quality, professional README.md files for your projects. With this tool, you can efficiently generate README files that include essential sections such as project descriptions, installation instructions, usage guidelines, licensing details, contributing guidelines, testing procedures, and contact information. Say goodbye to manually formatting your READMEs, and let the README Generator simplify your project documentation, ensuring consistency and professionalism in every README you create.
