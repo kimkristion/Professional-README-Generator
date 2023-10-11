@@ -104,6 +104,7 @@ function init() {
         const generateMarkdown = require('./utils/generateMarkdown');
 
         const licenseBadge = generateMarkdown.renderLicenseBadge(license);
+        const licenseLink = generateMarkdown.renderLicenseLink(license);
        
        
 
@@ -134,7 +135,7 @@ ${credits}
 ${contribution}
 
 ## License 
-${license} 
+${licenseLink} 
 
 ## Questions
 If you have any questions, encounter issues, or would like to discuss this project further, please feel free to reach out. You can contact me using the following methods:
