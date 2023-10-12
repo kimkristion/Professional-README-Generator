@@ -16,7 +16,7 @@ https://watch.screencastify.com/v/yP7UZgUMek6wCiQEQjUr
 ## Credits 
 Starter code repository 
 https://github.com/coding-boot-camp/potential-enigma
-![example README](<assets/images/Screenshot (36).png>)
+![Example README](<../images/Screenshot (36).png>)
 
 ## License 
 No license provided
