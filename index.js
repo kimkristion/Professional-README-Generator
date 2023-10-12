@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+// Packages needed for project
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// TODO: Create an array of questions for user input
+// Array of questions for inquirer use
 const questions = [
     {
         type: 'input',
@@ -74,19 +74,19 @@ const questions = [
 
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
+// initialization function
 function init() {
+    // inquirer for promopts and user response
     inquirer
     .prompt(questions)
     .then(answer => {
+        // .then runs after all prompts have been answered
 
         console.log('README created');
 
         const pathway = 'README.md'
         
+        // grabbing user input and creating variables for template literal use
         const projectTitle = answer.projecttitle;
         const descriptionPtOne = answer.descriptionintro;
         const descriptionPtTwo = answer.descriptionwhy;
@@ -94,20 +94,20 @@ function init() {
         const descriptionPtFour = answer.descriptionafterview;
         const installation = answer.usage;
         const usage = answer.usage;
-        const usageURL = answer.usageimg;
         const credits = answer.credits;
         const contribution = answer.contribution;
         const license = answer.license;
         const github = answer.github;
         const email = answer.email;
 
+        // Import a moddule for generator README license badge and link
         const generateMarkdown = require('./utils/generateMarkdown');
 
         const licenseBadge = generateMarkdown.renderLicenseBadge(license);
         const licenseLink = generateMarkdown.renderLicenseLink(license);
        
        
-
+        // Template literal structure
         let READMETemplate = `# ${projectTitle} ${licenseBadge}
 
 ## Overview
